@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RLActivity">
+
+    <TextView
+        android:id="@+id/tvcenter"
+        android:textSize="20sp"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center In Parent" />
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/pink"
+        android:textStyle="bold|italic"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vartical" />
+
+    <TextView
+
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horizontal" />
+
+    <TextView
+
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom" />
+
+    <TextView
+
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvcenter"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="Above" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvcenter"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="Below" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/tvcenter"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:text="Left" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvcenter"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:text="Right" />
+
+
+</RelativeLayout>
